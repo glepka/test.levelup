@@ -1,0 +1,7 @@
+.compound__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+  margin-top: 40px;
+}

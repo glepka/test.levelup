@@ -1,0 +1,5 @@
+.compound__right-column {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}

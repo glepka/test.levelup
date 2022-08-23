@@ -25,6 +25,7 @@
   touch-action: manipulation;
   align-self: flex-end;
   margin-right: 80px;
+  z-index: 1;
 }
 
 .promo__button:hover {

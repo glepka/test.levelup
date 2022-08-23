@@ -10,6 +10,7 @@
   list-style-type: none;
   margin-bottom: 20px;
   align-self: flex-start;
+  text-align: justify;
 }
 
 @media (max-width: 985px) {

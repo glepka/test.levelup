@@ -3,4 +3,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-left: 60px;
+}
+
+@media (max-width: 840px) {
+  .promo__list {
+    padding: 0 40px;
+  }
 }

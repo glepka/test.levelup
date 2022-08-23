@@ -15,3 +15,14 @@
 @import url(../blocks/promo/__title/promo__title.css);
 @import url(../blocks/promo/__content/promo__content.css);
 @import url(../blocks/promo/__button/promo__button.css);
+@import url(../blocks/promo/__video/promo__video.css);
+
+/* COMPOUND */
+@import url(../blocks/compound/compound.css);
+@import url(../blocks/compound/__card/compound__card.css);
+@import url(../blocks/compound/__center/compound__center.css);
+@import url(../blocks/compound/__description/compound__description.css);
+@import url(../blocks/compound/__image/compound__image.css);
+@import url(../blocks/compound/__left-column/compound__left-column.css);
+@import url(../blocks/compound/__main-image/compound__main-image.css);
+@import url(../blocks/compound/__right-column/compound__right-column.css);
