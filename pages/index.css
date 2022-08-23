@@ -1,0 +1,17 @@
+@import url(../vendor/normalize.css);
+
+/* FONTS */
+@import url(../vendor/fonts/fonts.css);
+
+/* PAGE */
+@import url(../blocks/page/page.css);
+@import url(../blocks/page/__promo/page__promo.css);
+
+/* PROMO */
+@import url(../blocks/promo/promo.css);
+@import url(../blocks/promo/__image/promo__image.css);
+@import url(../blocks/promo/__list/promo__list.css);
+@import url(../blocks/promo/__specification/promo__specification.css);
+@import url(../blocks/promo/__title/promo__title.css);
+@import url(../blocks/promo/__content/promo__content.css);
+@import url(../blocks/promo/__button/promo__button.css);

@@ -1,0 +1,13 @@
+.promo__content {
+  display: flex;
+  padding: 0 80px;
+  align-items: center;
+}
+
+@media (max-width: 800px) {
+  .promo__content {
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+  }
+}
