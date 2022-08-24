@@ -1,0 +1,11 @@
+.second-promo__two-columns {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+@media (max-width: 830px) {
+  .second-promo__two-columns {
+    flex-direction: column;
+  }
+}

@@ -30,7 +30,7 @@
           </li>
         </ul>
       </div>
-      <button class="promo__button">Заказать</button>
+      <a href="#order" class="button_place_promo"><button class="button ">Заказать</button></a>
     </section>
     <section class="compound">
       <div class="compound__left-column">
@@ -58,7 +58,7 @@
       </div>
       <div class="compound__center">
         <img src="./images/prod.png" alt="" class="compound__main-image" />
-        <button class="promo__button">Заказать</button>
+        <a href="#order"><button class="button">Заказать</button></a>
       </div>
       <div class="compound__right-column">
         <div class="compound__card">
@@ -84,5 +84,112 @@
         </div>
       </div>
     </section>
+
+    <section class="reviews page__review">
+      <div class="slider">
+        <input
+          type="radio"
+          name="r"
+          id="button1"
+          class="slider__input"
+          checked
+        />
+        <input type="radio" name="r" id="button2" class="slider__input" />
+        <input type="radio" name="r" id="button3" class="slider__input" />
+
+        <div class="slider__slides first">
+          <div class="slider__slide">
+            <div class="slider__card card">
+              <img src="./images/doctor.png" alt="" class="card__image" />
+              <h2 class="card__title">Первый доктор</h2>
+              <p class="card__review">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
+                inventore?
+              </p>
+            </div>
+          </div>
+          <div class="slider__slide">
+            <div class="slider__card card">
+              <img src="./images/doctor.png" alt="" class="card__image" />
+              <h2 class="card__title">Второй доктор</h2>
+              <p class="card__review">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repudiandae error quibusdam aspernatur vitae laudantium debitis!
+              </p>
+            </div>
+          </div>
+          <div class="slider__slide">
+            <div class="slider__card card">
+              <img src="./images/doctor.png" alt="" class="card__image" />
+              <h2 class="card__title">Третий доктор</h2>
+              <p class="card__review">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
+                inventore?
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="slider__navigation">
+          <label for="button1" class="slider__bar"></label>
+          <label for="button2" class="slider__bar"></label>
+          <label for="button3" class="slider__bar"></label>
+        </div>
+      </div>
+    </section>
+
+    <section class="second-promo">
+      <div class="second-promo__two-columns">
+        <img src="./images/prod.png" alt="" class="second-promo__image" />
+        <p class="second-promo__description">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus
+          quasi repellat rem aliquid! Omnis, eveniet consequuntur, ipsam
+          officiis ratione quo consectetur consequatur natus ipsum rerum
+          excepturi aperiam quas voluptas minima.
+        </p>
+      </div>
+      <ul class="second-promo__list">
+        <li class="second-promo__characteristic">Lorem, ipsum.</li>
+        <li class="second-promo__characteristic">Lorem, ipsum.</li>
+        <li class="second-promo__characteristic">Lorem, ipsum.</li>
+      </ul>
+      <a href="#order"><button class="button button_place_second-promo">Заказать</button></a>
+    </section>
+
+    <section class="order" id="order">
+      <h2 class="order__title">LevelUP</h2>
+      <div class="order__timer-container">
+        <h3 class="order__subtitle">До конца акции осталось :</h3>
+        <div class="order__timer"></div>
+      </div>
+      <div class="order__two-columns">
+        <div class="order__description">
+          <img src="./images/prod.png" class="order__image"></img>
+          <div class="order__prices">
+            <p class="order__price">
+              Старая цена -  </p>
+              <p class="order__price_type_old"> 100 рублей</p>
+              <p class="order__price">
+                Новая цена -  </p>
+                <p class="order__price_type_new"> 50 рублей</p>
+          </div>
+        </div>
+
+          <form method="post" class="form" name="order-form">
+            <h2 class="form__title">Закажи прямо сейчас</h2>
+            <h2></h2>
+            <label  class="form__field">
+              <input type="text" id="name-input" placeholder="Имя" class="form__input" name="name"  required minlength="2"maxlength="40">
+            </label>
+            <label class="form__field">
+              <input type="number"  id="phone-input" placeholder="+7(999)999-99-99" class="form__input" name="phone"  required minlength="2">
+            </label>
+            <button type="submit" class="button">Заказать</button>
+          </form>
+          
+        
+      </div>
+    </section>
+    <script src="./script.js"></script>
   </body>
 </html>

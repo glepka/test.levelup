@@ -1,0 +1,25 @@
+.second-promo__description {
+  max-width: 50%;
+  text-align: justify;
+  font-family: "Inter", "Arial", "Helvetica", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 105.56%;
+  color: #ffffff;
+  margin: 0;
+  align-self: center;
+  margin-left: 70px;
+}
+
+@media (max-width: 970px) {
+  .second-promo__description {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 830px) {
+  .second-promo__description {
+    margin-left: 0px;
+  }
+}

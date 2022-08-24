@@ -1,0 +1,9 @@
+.order {
+  padding-top: 50px;
+
+  background-image: linear-gradient(
+    #dff5ec 9.16%,
+    #89e2ee 43.89%,
+    #cceceb 64.72%
+  );
+}

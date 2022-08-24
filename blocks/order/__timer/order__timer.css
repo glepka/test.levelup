@@ -1,0 +1,18 @@
+.order__timer {
+  font-family: "Inter", "Arial", "Helvetica", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 105.56%;
+  color: #e4d2f3;
+  margin: 0;
+  background-color: rgb(46, 4, 63);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+@media (max-width: 800px) {
+  .order__timer {
+    font-size: 40px;
+  }
+}

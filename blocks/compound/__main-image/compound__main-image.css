@@ -1,3 +1,9 @@
 .compound__main-image {
   margin-bottom: 150px;
 }
+
+@media (max-width: 800px) {
+  .compound__main-image {
+    margin-bottom: 50px;
+  }
+}

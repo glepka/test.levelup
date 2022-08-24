@@ -1,0 +1,20 @@
+.slider {
+  width: 80%;
+  height: 80%;
+  overflow: hidden;
+
+  margin: 0 auto;
+  position: relative;
+}
+
+#button1:checked ~ .first {
+  margin-left: 0;
+}
+
+#button2:checked ~ .first {
+  margin-left: calc(100% / 3 * 3 * -1);
+}
+
+#button3:checked ~ .first {
+  margin-left: calc(100% / 3 * 6 * -1);
+}

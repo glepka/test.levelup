@@ -1,0 +1,7 @@
+.slider__navigation {
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  display: flex;
+  transform: translateX(-50%);
+}

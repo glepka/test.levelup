@@ -1,0 +1,20 @@
+.order__title {
+  min-width: 100%;
+  text-align: center;
+  font-family: "Inter", "Arial", "Helvetica", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 105.56%;
+  color: #9731eb;
+  margin: 0;
+  align-self: end;
+  margin-bottom: 40px;
+  z-index: 1;
+}
+
+@media (max-width: 390px) {
+  .order__title {
+    font-size: 50px;
+  }
+}

@@ -1,0 +1,19 @@
+.order__timer-container {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 800px) {
+  .order__timer-container {
+    padding: 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  .order__timer-container {
+    flex-direction: column;
+  }
+}

@@ -6,6 +6,13 @@
 /* PAGE */
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__promo/page__promo.css);
+@import url(../blocks/page/__review/page__review.css);
+
+/* BUTTON */
+
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/_place/button_place_promo.css);
+@import url(../blocks/button/_place/button_place_second-promo);
 
 /* PROMO */
 @import url(../blocks/promo/promo.css);
@@ -14,7 +21,6 @@
 @import url(../blocks/promo/__specification/promo__specification.css);
 @import url(../blocks/promo/__title/promo__title.css);
 @import url(../blocks/promo/__content/promo__content.css);
-@import url(../blocks/promo/__button/promo__button.css);
 @import url(../blocks/promo/__video/promo__video.css);
 
 /* COMPOUND */
@@ -26,3 +32,52 @@
 @import url(../blocks/compound/__left-column/compound__left-column.css);
 @import url(../blocks/compound/__main-image/compound__main-image.css);
 @import url(../blocks/compound/__right-column/compound__right-column.css);
+@import url(../blocks/compound/__button/compound__button.css);
+
+/* REWIEWS */
+@import url(../blocks/rewiews/reviews.css);
+
+/* SLIDER */
+@import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/__bar/slider__bar.css);
+@import url(../blocks/slider/__card/slider__card.css);
+@import url(../blocks/slider/__navigation/slider__navigation.css);
+@import url(../blocks/slider/__input/slider__input.css);
+@import url(../blocks/slider/__slides/slider__slides.css);
+@import url(../blocks/slider/__slide/slider__slide.css);
+
+/* CARD */
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__image/card__image.css);
+@import url(../blocks/card/__review/card__review.css);
+@import url(../blocks/card/__title/card__title.css);
+
+/* SECOND-PROMO */
+
+@import url(../blocks/second-promo/second-promo.css);
+@import url(../blocks/second-promo/__characteristic/second-promo__characteristic.css);
+@import url(../blocks/second-promo/__description/second-promo__description.css);
+@import url(../blocks/second-promo/__image/second-promo__image.css);
+@import url(../blocks/second-promo/__list/second-promo__list.css);
+@import url(../blocks/second-promo/__two-columns/second-promo__two-columns.css);
+
+/* ORDER */
+@import url(../blocks/order/order.css);
+@import url(../blocks/order/__description/order__description.css);
+@import url(../blocks/order/__price/order__price.css);
+@import url(../blocks/order/__price/_type/order__price_type_new.css);
+@import url(../blocks/order/__price/_type/order__price_type_old.css);
+@import url(../blocks/order/__prices/order__prices.css);
+@import url(../blocks/order/__timer/order__timer.css);
+@import url(../blocks/order/__title/order__title.css);
+@import url(../blocks/order/__two-columns/order__two-columns.css);
+@import url(../blocks/order/__image/order__image.css);
+@import url(../blocks/order/__timer-container/order__timer-container.css);
+@import url(../blocks/order/__subtitle/order__subtitle.css);
+
+/* FORM */
+
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__input/form__input.css);
+@import url(../blocks/form/__field/form__field.css);
+@import url(../blocks/form/__title/form__title.css);

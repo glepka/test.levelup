@@ -1,0 +1,16 @@
+.card__title {
+  color: #fff;
+  text-align: center;
+  font-family: "Inter", "Arial", "Helvetica", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 105.56%;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .card__title {
+    font-size: 25px;
+  }
+}

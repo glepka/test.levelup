@@ -3,3 +3,9 @@
   flex-direction: column;
   width: 25%;
 }
+
+@media (max-width: 800px) {
+  .compound__right-column {
+    order: -1;
+  }
+}

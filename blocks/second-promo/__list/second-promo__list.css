@@ -1,0 +1,12 @@
+.second-promo__list {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+@media (max-width: 630px) {
+  .second-promo__list {
+    flex-direction: column;
+  }
+}

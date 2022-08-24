@@ -1,0 +1,12 @@
+.button_place_promo {
+  margin-right: 80px;
+  align-self: flex-end;
+  z-index: 2;
+}
+
+@media (max-width: 800px) {
+  .button_place_promo {
+    align-self: center;
+    margin-right: 0px;
+  }
+}

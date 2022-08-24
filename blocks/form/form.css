@@ -1,0 +1,22 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(
+    50deg,
+    #35c990 9.16%,
+    #1bb977 43.89%,
+    #16cec5 64.72%
+  );
+  border-radius: 10px;
+  padding: 20px;
+  height: fit-content;
+  align-self: center;
+  margin-left: 150px;
+}
+
+@media (max-width: 960px) {
+  .form {
+    margin-left: 0;
+  }
+}

@@ -1,4 +1,4 @@
-.promo__button {
+.compound__button {
   background-image: linear-gradient(
     92.88deg,
     #455eb5 9.16%,
@@ -12,10 +12,10 @@
   cursor: pointer;
 
   font-family: "Inter", "Arial", "Helvetica", sans-serif;
-  font-size: 16px;
+  font-size: 32px;
   font-weight: 500;
-  height: 40px;
-  width: 130px;
+  height: 80px;
+  width: 260px;
 
   text-align: center;
   text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
@@ -23,18 +23,17 @@
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  align-self: flex-end;
-  margin-right: 80px;
+
   z-index: 1;
 }
 
-.promo__button:hover {
+.compound__button:hover {
   box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
   transition-duration: 0.1s;
 }
 
 @media (max-width: 800px) {
-  .promo__button {
+  .compound__button {
     align-self: center;
     margin-right: 0px;
   }

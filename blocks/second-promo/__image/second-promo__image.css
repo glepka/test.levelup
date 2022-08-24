@@ -1,0 +1,10 @@
+.second-promo__image {
+  width: fit-content;
+  align-self: center;
+}
+
+@media (max-width: 830px) {
+  .second-promo__image {
+    margin-bottom: 40px;
+  }
+}

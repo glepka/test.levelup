@@ -1,0 +1,14 @@
+.form__title {
+  min-width: 100%;
+  text-align: center;
+  font-family: "Inter", "Arial", "Helvetica", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 105.56%;
+  color: #ffffff;
+  margin: 0;
+  align-self: end;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
